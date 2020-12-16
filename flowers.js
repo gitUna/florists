@@ -90,8 +90,9 @@ for (let x = 1; x < 5; x++) {
 //Mobile navigation margin
 const sliderSection = document.querySelector(".slider");
 
-sliderSection.style.height = `${window.innerHeight * 0.9}px`;
-sliderSection.style.width = `${window.innerWidth * 0.6}px`;
+if (window.innerWidth >= 1001) {
+  sliderSection.style.height = `${16 + window.innerHeight * 0.025}rem`;
+} else sliderSection.style.height = `${16 + window.innerHeight * 0.01}rem`;
 
 //Closing popup
 const cross = document.querySelectorAll(".closing-cross");
