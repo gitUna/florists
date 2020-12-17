@@ -87,12 +87,6 @@ for (let x = 1; x < 5; x++) {
   });
 }
 
-//Mobile navigation margin
-const sliderSection = document.querySelector(".slider");
-if (window.innerWidth >= 1001) {
-  sliderSection.style.height = `${16 + window.innerHeight}px`;
-} else sliderSection.style.height = `${window.innerWidth * 0.75}px`;
-
 //Closing popup
 const cross = document.querySelectorAll(".closing-cross");
 cross.forEach((c) =>
