@@ -89,10 +89,10 @@ for (let x = 1; x < 5; x++) {
 
 //Mobile navigation margin
 const sliderSection = document.querySelector(".slider");
-
 if (window.innerWidth >= 1001) {
-  sliderSection.style.height = `${16 + window.innerHeight * 0.025}rem`;
-} else sliderSection.style.height = `${16 + window.innerHeight * 0.01}rem`;
+  sliderSection.style.height = `${16 + window.innerHeight * 0.026}rem`;
+} else sliderSection.style.height = `${16 + window.innerHeight * 0.005}rem`;
+// sliderSection.style.width = `${window.innerWidth * 0.6}px`;
 
 //Closing popup
 const cross = document.querySelectorAll(".closing-cross");
