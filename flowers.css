@@ -59,7 +59,6 @@
   .offer {
     width: 120px;
     margin: 10px;
-    margin-top: 10px;
     padding: 5px 10px;
   }
   .offer p {
@@ -72,10 +71,6 @@
   .images {
     margin-top: 40px;
   }
-  .slider {
-    height: 15rem;
-    width: 12rem;
-  }
 }
 @media only screen and (min-width: 700px) and (max-width: 1001px) {
   .features div {
@@ -83,10 +78,6 @@
     min-width: 130px;
     font-size: 14px;
     margin: 0 0.5%;
-  }
-  .slider {
-    height: 21rem;
-    width: 30rem;
   }
 }
 
@@ -147,13 +138,9 @@
     min-width: 200px;
   }
   .offer {
-    width: 140px;
+    width: 160px;
     margin: 15px;
-    margin-top: 20px;
-    padding: 20px 40px;
-  }
-  .section3 {
-    max-height: 900px;
+    height: 200px;
   }
 
   .img-container {
@@ -162,10 +149,6 @@
   }
   .images {
     margin-top: 50px;
-  }
-  .slider {
-    height: 32rem;
-    width: 50rem;
   }
 }
 body {
@@ -229,7 +212,9 @@ section {
 }
 /* SLIDER */
 .slider {
-  margin: 0 auto;
+  width: 90%;
+  height: 16rem;
+  /* margin: 0 auto; */
   position: relative;
   overflow: hidden;
 }
@@ -238,7 +223,6 @@ section {
   position: absolute;
   top: 0;
   width: 100%;
-  /* height: 10rem; */
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -297,11 +281,26 @@ section {
   display: flex;
   flex-flow: column;
   border: 1px solid var(--col-grey);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .offer:hover {
   filter: none;
   cursor: pointer;
   background-color: #fff;
+}
+#offer1 {
+  background-image: url(img/icons/flower-post.png);
+}
+#offer2 {
+  background-image: url(img/icons/bouquet.png);
+}
+#offer3 {
+  background-image: url(img/icons/funeral.png);
+}
+#offer4 {
+  background-image: url(img/icons/basket.png);
 }
 .offer p {
   font-style: italic;
@@ -309,7 +308,7 @@ section {
   border-left: none;
   padding-left: 0;
   margin-left: 0;
-  margin-top: 20px;
+  margin-top: 150px;
 }
 .offer-items {
   display: flex;
