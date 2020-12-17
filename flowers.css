@@ -71,6 +71,9 @@
   .images {
     margin-top: 40px;
   }
+  .pop-container p {
+    font-size: 14px;
+  }
 }
 @media only screen and (min-width: 700px) and (max-width: 1001px) {
   .features div {
@@ -78,6 +81,9 @@
     min-width: 130px;
     font-size: 14px;
     margin: 0 0.5%;
+  }
+  .pop-container p {
+    font-size: 16px;
   }
 }
 
@@ -150,6 +156,9 @@
   .images {
     margin-top: 50px;
   }
+  .pop-container p {
+    font-size: 18px;
+  }
 }
 body {
   margin: 0;
@@ -212,9 +221,8 @@ section {
 }
 /* SLIDER */
 .slider {
-  width: 90%;
-  height: 16rem;
-  /* margin: 0 auto; */
+  width: 100%;
+
   position: relative;
   overflow: hidden;
 }
@@ -231,7 +239,7 @@ section {
 
 .slide-img {
   border-radius: 20px;
-  filter: grayscale();
+  /* filter: grayscale(); */
   width: 100%;
   height: 100%;
 }
