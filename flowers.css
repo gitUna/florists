@@ -1,7 +1,7 @@
 :root {
   --col-grey: #777;
   --col-red: #e34b52;
-  --col-light-green: #8ac79a;
+  --col-light-green: #7eb78c;
   --light-grey: rgb(248, 248, 248);
 }
 @media only screen and (max-width: 1000px) {
